@@ -24,7 +24,6 @@ function countdown() {
     minuteselements.innerHTML=formatTime(minutes) ;
     secondselements.innerHTML=formatTime(seconds) ;
 
-
 }
 function formatTime(time) {//função para adicionar um zero quando o numero da hora, minuto e segundo estiver menor que 10 
     return time <10 ? `0${time}`: time;
