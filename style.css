@@ -34,11 +34,6 @@ main{
     flex: 1;
 
 }
-
-.content-countdown{
-    display: flex;
-   
-}
 .ready{
     font-family: 'Poppins';
     font-style: normal;
@@ -47,15 +42,24 @@ main{
     line-height: 5.4rem;
     letter-spacing: 0.105rem;
     text-transform: uppercase;
-    color: #6C63FF
+    color: #6C63FF;
+    margin-bottom: 1.9rem;
+    
+    
 }
-.card-countdown{
+.content-countdown{
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-right: 0.5rem;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 4rem;
 }
-.text_card{
+.content-info{
+    display: flex;    
+    flex-direction: column;
+}
+.content-days{
+    width: 100%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
@@ -63,21 +67,24 @@ main{
     line-height: 2.1rem;
     text-transform: capitalize;
     color: #C8C8C8;
-    
-
-    
-}
-.info-card{
     display: flex;
     justify-content: center;
+    
+
+}
+.content-value{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 5rem;
+    font-size: 6rem;
+    line-height: 10.8rem;
     color: #4D4C59;
     
-    width: 100%;
-    gap: 1rem;
+}
+.content-ponts{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 .subscribed-text{
     font-family: 'Poppins';
@@ -91,6 +98,7 @@ main{
 .subscribed{
     width: 10rem;
     height: 3rem;
+    margin-bottom: 3.9rem;
     color: #ffffff;
     background: #6C63FF;
     border-radius: 1.0rem;
